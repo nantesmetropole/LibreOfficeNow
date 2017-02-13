@@ -1,0 +1,18 @@
+Bonjour,
+
+Dans le cadre du projet LibreOffice votre poste de travail va être migré vers la nouvelle suite bureautique dans quelques jours.
+
+Afin de pouvoir configurer votre poste de travail de manière optimale, nous vous invitons à remplir le questionnaire suivant avant le ##date_butoir##.
+En l'absence de réponse de votre part le ##date_migration## une configuration par défaut sera appliquée, sans garantie de continuité de fonctionnement de vos applications et macros.
+
+Pour accéder au questionnaire, cliquez sur le lien suivant : http://site
+
+
+Vous retrouverez les informations utiles afin de préparer votre migration sur l'intranet:
+http://pageinfo
+La consultation de la section "Guide de Migration" est particulièrement recommandée si vous n'avez pas pu assister à l'une des réunions plénières.
+
+Si vous ne trouvez pas la réponse à votre question, nous vous invitons à contacter le support au XXXXXXXXXx
+
+Cordialement,
+La DSI

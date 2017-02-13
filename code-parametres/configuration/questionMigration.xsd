@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="questions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="question" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="titre" />
+							<xs:element type="xs:byte" name="code" />
+							<xs:element type="xs:string" name="libelle" />
+							<xs:element type="xs:string" name="libelle_niveau2"
+								minOccurs="0" />
+							<xs:element type="xs:byte" name="nbQuestionColonne" />
+							<xs:element type="xs:string" name="libelle_recapitulatif" />
+							<xs:element name="reponses">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="reponse" maxOccurs="unbounded"
+											minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:byte" name="code" />
+													<xs:element type="xs:string" name="libelle" />
+													<xs:element type="xs:byte" name="actif" />
+													<xs:element name="groupes" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:string" name="groupe" maxOccurs="unbounded"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

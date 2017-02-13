@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<constantes>
+	<constante>
+		<!-- affiche le bouton de retour arriere -->
+		<code>ACTIVE_RETOUR_ARRIERE</code>
+		<!-- si oui, le bouton est actif sinon il ne sera pas visible -->
+		<valeur>non</valeur>
+	</constante>
+	<constante>
+		<!-- delai avant relance par defaut -->
+		<code>DELAI_AVANT_RELANCE_DEFAUT</code>
+		<valeur>7</valeur>
+	</constante>
+	<constante>
+		<!-- L'option "Je me suis trompe dans le remplissage du questionnaire" lui est presentee jusqu'a 0 jours -->
+		<code>OPTION_NB_JOURS_REMPLISSAGE_QUESTIONNAIRE</code>
+		<valeur>10</valeur>
+	</constante>
+	<constante>
+	<!-- adresse de la BDD-->
+		<code>BDD_HOST</code>
+		<valeur>bdd.macompagnie.com</valeur>
+	</constante>
+	<constante>
+	<!-- port de la BDD-->
+		<code>BDD_DB_PORT</code>
+		<valeur>1234</valeur>
+	</constante>
+	<!-- nom de la BDD-->
+	<constante>
+		<code>BDD_DB_NAME</code>
+		<valeur>bdd</valeur>
+	</constante>
+	<!-- utilisateur pour se connecter a la BDD-->
+	<constante>
+		<code>BDD_USER</code>
+		<valeur>compteaccesbdd</valeur>
+	</constante>
+	<!-- mot de passe de l'utilisateur pour se connecter a la BDD-->
+	<constante>
+		<code>BDD_PASSWORD</code>
+		<valeur>mdp</valeur>
+	</constante>
+	<!-- adresse du serveur LDAP-->
+	<constante>
+		<code>LDAP_SERVER</code>
+		<valeur>ldap.macompagnie.com</valeur>
+	</constante>
+	<!-- port du serveur LDAP-->
+	<constante>
+		<code>LDAP_PORT</code>
+		<valeur>389</valeur>
+	</constante>
+	<!-- utilisateur se connectant au serveur LDAP-->
+	<constante>
+		<code>LDAP_USER</code>
+		<valeur>userldap@macompagnie.com</valeur>
+	</constante>
+	<!-- mot de passe de l'utilisateur se connectant au serveur LDAP-->
+	<constante>
+		<code>LDAP_MDP</code>
+		<valeur>mdp</valeur>
+	</constante>
+	<!-- version du LDAP-->
+	<constante>
+		<code>LDAP_VERSION</code>
+		<valeur>3</valeur>
+	</constante>
+	<!-- version du LDAP-->
+	<constante>
+		<code>LDAP_DC</code>
+		<!--<valeur>CN=,DC=,DC=,DC=</valeur> -->
+		<valeur></valeur>
+	</constante>
+	<!-- champ indiquant le login -->
+	<constante>
+		<code>LDAP_CHAMP_IDENTIFIANT</code>
+		<valeur>SamAccountName</valeur>
+		<!--<valeur>CN</valeur>-->
+	</constante>
+	<!-- champ indiquant le mail -->
+	<constante>
+		<code>LDAP_CHAMP_MAIL</code>
+		<valeur>mail</valeur>
+	</constante>
+	<!-- champ indiquant le nom -->
+	<constante>
+		<code>LDAP_CHAMP_NOM</code>
+		<valeur>sn</valeur>
+	</constante>
+	<!-- champ indiquant le prenom -->
+	<constante>
+		<code>LDAP_CHAMP_PRENOM</code>
+		<valeur>givenname</valeur>
+	</constante>
+	<constante>
+		<code>OBJET_EMAIL_DEBUT</code>
+		<valeur>Migration vers LibreOffice</valeur>
+	</constante>
+	<constante>
+		<code>FROM_EMAIL_DEBUT</code>
+		<valeur>no-reply@macompagnie.com</valeur>
+	</constante>
+	<constante>
+		<code>OBJET_EMAIL_RELANCE</code>
+		<valeur>Migration vers LibreOffice - RELANCE</valeur>
+	</constante>
+	<constante>
+		<code>FROM_EMAIL_RELANCE</code>
+		<valeur>no-reply@macompagnie.com</valeur>
+	</constante>
+	<constante>
+		<code>OBJET_EMAIL_RECAP</code>
+		<valeur>Migration vers LibreOffice</valeur>
+	</constante>
+	<constante>
+		<code>FROM_EMAIL_RECAP</code>
+		<valeur>no-reply@macompagnie.com</valeur>
+	</constante>
+	<constante>
+		<code>REPERTOIRE_EXPORT_BATCH</code>
+		<valeur>/var/local/lib/libreofficenow</valeur>
+	</constante>
+	<constante>
+		<code>LIBELLE_LIBREOFFICE_DEFAUT</code>
+		<valeur>GRPMIGRELIBREOFFICE</valeur>
+	</constante>
+	<constante>
+		<code>LIBELLE_OFFICE_DEFAUT</code>
+		<valeur>Office 2003</valeur>
+	</constante>
+
+	<constante>
+		<code>GRPAPPLIWORD_LIBELLE</code>
+		<valeur>Adherence word</valeur>
+	</constante>
+	<constante>
+		<code>GRPAPPLIEXCEL_LIBELLE</code>
+		<valeur>Adherence excel</valeur>
+	</constante>
+	
+	<constante>
+		<code>MACROSEXCEL_LIBELLE</code>
+		<valeur>Utilise des documents avec macros Excel</valeur>
+	</constante>
+	<constante>
+		<code>MACROSWORD_LIBELLE</code>
+		<valeur>Utilise des documents avec macros Word</valeur>
+	</constante>
+	<constante>
+		<code>MACROSOFFICE_LIBELLE</code>
+		<valeur>Ecris des macros</valeur>
+	</constante>
+	<constante>
+		<code>POWERPOINT_LIBELLE</code>
+		<valeur>Utilise souvent powerpoint</valeur>
+	</constante>
+	<constante>
+		<code>GRPEXCELMACROS_URL</code>
+		<valeur>Les macros que vous avez développé doivent être migrées vers LibreOffice.
+		Afin de vous accompagner de manière optimale, nous vous proposons des sessions de formation aux macros sous LibreOffice ainsi qu'une assistance sur site pour vous aider à démarrer leur conversion.
+		Vous trouverez toutes les informations nécessaires à votre inscription ici: http://adressesite
+		</valeur>
+	</constante>
+	<constante>
+		<code>POWERPOINT_URL</code>
+		<valeur>Nous vous recommandons de suivre une formation à Impress (l'équivalent de Powerpoint).
+		Toutes les informations pour vous inscrire sont disponibles sur: http://adressesite
+		</valeur>
+	</constante>
+</constantes>

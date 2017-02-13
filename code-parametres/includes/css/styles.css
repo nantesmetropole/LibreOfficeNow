@@ -1,0 +1,193 @@
+/*générique*/
+body {
+	font-family: Helvetica, Arial, Verdana;
+	font-size: 13px;
+	color: #231F20;
+	margin: 0;
+	padding: 0;
+}
+
+p.commentaire {
+	color: #8195A0;
+	margin: 0px;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 250px;
+}
+
+#listeAgentCampagne label{
+	width:115px;
+	padding-top:3px;
+}
+
+div.message li {
+	font-weight:bold;
+	list-style-type:none;
+	background-repeat:no-repeat;
+	background-position:0% 60%;
+	padding:3px 0 3px 30px;
+}
+.message.warning li {
+    background-image: url("../images/warning_triangle.png");
+}
+.message.negative li {
+	background-image:url("../images/warning.png");
+}
+/*input[type="submit"]{margin-bottom:3px}*/
+img {
+	border: 0;
+}
+
+table#datatables img {
+	height: 20px;
+	padding-right: 20px;
+}
+
+table#datatablesAgents img {
+	height: 20px;
+	padding-right: 20px;
+}
+
+p {
+	padding-top: 0;
+	margin-top: 0
+}
+
+/*En tête*/
+#header .grandtitre {
+	font-size: 2em;
+	font-variant: normal;
+	font-weight: bold;
+	font-stretch: normal;
+	color: #708f9d;
+	font-family: 'Helvetica 65 Medium';
+	margin: 0;
+}
+
+/*contenu*/
+#page {
+	padding: 0;
+	margin: 0em 10%;
+	background: #fff;
+	width: 1024px;
+}
+
+#soustitre {
+	font-size: 1em;
+	font-variant: normal;
+	font-stretch: normal;
+	color: #708f9d;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+#listeAgentCampagne {
+	display: inline-block;
+	width: 600px;
+}
+
+#detailCampagne {
+	display: inline;
+	float:left;
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+#detailCampagne label {
+	width: 200px;
+}
+
+#detailCampagne input {
+	width: 150px;
+}
+/*pied de page*/
+#footer {
+	width: 100%;
+	padding: 0;
+	position: relative;
+	height: 10%;
+	margin: 50px 0;
+	margin-top: 8em;
+	text-align: center;
+	background-color: #809199;
+}
+
+#versionApplication {
+	color: lightgrey;
+	text-align: right;
+	vertical-align: bottom;
+	padding-right: 10px;
+}
+
+#footer  img {
+	position:relative;
+	height: 170px;
+	padding: 0;
+	margin-top: -54px;
+}
+
+#erreurs {
+	color: #FF0000;
+}
+
+#warning {
+	color: #A03400;
+}
+
+.consultationCampagne ul {
+	display: inline-block;
+}
+
+.consultationCampagne li {
+	list-style-type: none;
+}
+
+.listeReponse ul {
+	display: inline;
+	float:left;
+	padding-right: 30px;
+	vertical-align: top;
+}
+
+.listeReponse {
+	text-align: left;
+}
+
+.listeReponse li {
+	list-style-type: none;
+	padding-bottom: 15px;
+}
+
+.listeReponseConsultationCampagne ul {
+	display: inline-block;
+}
+
+.listeReponseConsultationCampagne  li {
+	list-style-type: none;
+	margin: 0;
+}
+
+.migrationEtapeSuivante, .migrationEtapePrecedente{
+	clear:both;
+	
+	margin-top:2px; margin-left:10px;
+}
+div.navigationsFormulaire{
+	clear:both;
+}
+
+.migrationTrompe{
+	margin-bottom:10px;*width:350px;
+}
+.retourArriereRevenir{
+	*width:190px;
+}
+input.consulterParAgent{
+	margin-left:10px;
+}
+td span.champCache {
+	visibility : hidden;
+}

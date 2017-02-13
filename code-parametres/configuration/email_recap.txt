@@ -1,0 +1,33 @@
+Bonjour,
+
+Merci d'avoir rempli le questionnaire de migration.
+Vos réponses vont nous permettre de prendre en compte vos applications ainsi que votre usage de la suite bureautique.
+
+La date de migration de votre poste de travail est prévue ##date_migration##
+
+
+Vous retrouverez les informations utiles afin de préparer votre migration sur l'intranet:
+http://pageinfo
+La consultation de la section "Guide de Migration" est particulièrement recommandée si vous n'avez pas pu assister à l'une des réunions plénières.
+
+
+Dispositif de formation:
+
+Des formations à Writer, Calc et Impress sont disponibles.
+Programmes et inscriptions en ligne sont disponibles via ce lien: http://inscriptionformations
+
+##liste_url##
+
+
+En cas de besoin ou si vous rencontrez des difficultés lors de la migration:
+
+Veuillez consulter en priorité l'aide en ligne disponible sur http://sitesupport
+
+Si vous ne trouvez pas la réponse à vos interrogations, vous pouvez également solliciter:
+- le STP au 0811 701 701
+	ou
+- l'un(e) des assistant(e)s de migration de votre direction. Liste disponible ici:
+    http://pageinfo
+
+Cordialement,
+Les équipes du DRN

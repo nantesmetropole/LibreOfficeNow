@@ -1,0 +1,19 @@
+Bonjour,
+
+Vous n'avez pas encore répondu au questionnaire en ligne concernant votre migration vers LibreOffice.
+Il vous reste quelques jours pour le faire.
+
+Veuillez noter qu'en l'absence de réponse de votre part le ##date_butoir##:
+- Une configuration par défaut sera appliquée sur votre poste de travail le ##date_migration##, sans garantie de continuité de fonctionnement de vos applications et macros.
+- Vous ne serez pas informé des possibilités de formation et d'accompagnement adaptés à votre utilisation du poste de travail.
+- En cas d'appel au support, il vous sera demandé de compléter le questionnaire avant toute prise en charge.
+
+Pour accéder au questionnaire, cliquez sur le lien suivant : http://adresse-libreofficenow
+
+Pour toute question relative à la migration, l'intranet contient également une rubrique spécialement créée à cet effet. Elle contient toutes les informations dont vous avez besoin:
+http://pageinfo
+
+Si vous ne trouvez pas la réponse à votre question dans l'intranet, veuillez contacter le support
+
+Cordialement,
+Les équipes du DRN

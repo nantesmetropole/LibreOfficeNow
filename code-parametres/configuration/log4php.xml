@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+	<appender name="default" class="LoggerAppenderDailyFile">
+		<layout class="LoggerLayoutPattern">
+			<param name="ConversionPattern" value="%d{Y-m-d H:i:s} [%p] %c: %m (line %L)%n" />
+		</layout>
+		<param name="file" value="/var/local/log/libreofficenow/file-%s.log" />
+		<param name="datePattern" value="Y-m-d" />
+	</appender>
+	<root>
+		<level value="DEBUG" />
+		<appender_ref ref="default" />
+	</root>
+</configuration>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<questions>
+	<question>
+		<titre>applications</titre>
+		<code>1</code>
+		<libelle>Veuillez cocher les applications que vous utilisez.</libelle>
+		<libelle_niveau2>Ces informations sont nécessaires pour que nous puissions configurer votre poste de manière optimale, 
+		en particulier pour vous permettre de continuer à travailler avec ces applications une fois la migration effective.</libelle_niveau2>
+		<nbQuestionColonne>10</nbQuestionColonne>
+		<libelle_recapitulatif>Vous avez indiqué que vous utilisez les applications suivantes :</libelle_recapitulatif>
+		<reponses>
+ <reponse><code>1</code><libelle>Nom-application1</libelle><actif>1</actif><groupes><groupe>GRPAPPWORD</groupe></groupes></reponse>
+ <reponse><code>2</code><libelle>Nom-application2</libelle><actif>1</actif><groupes><groupe>GRPAPPWORD</groupe><groupe>GRPAPPEXCEL</groupe></groupes></reponse>
+ </reponses>
+	</question>
+	<question>
+		<titre>Votre usage de la bureautique</titre>
+		<code>2</code>
+		<libelle>Veuillez cocher les éléments qui décrivent le mieux votre
+			utilisation de la bureautique.</libelle>
+		<libelle_niveau2>Si vous ne comprenez pas les termes employés dans une des questions, vous n'êtes à priori pas concerné par cette dernière, ne la cochez pas.</libelle_niveau2>
+		<nbQuestionColonne>6</nbQuestionColonne>
+		<libelle_recapitulatif>Votre usage de la bureautique correspond bien à ces phrases</libelle_recapitulatif>
+		<reponses>
+			<reponse>
+				<code>1</code>
+				<libelle>J'utilise souvent Word et Excel</libelle>
+				<actif>1</actif>
+			</reponse>
+			<reponse>
+				<code>2</code>
+				<libelle>J'utilise souvent Powerpoint</libelle>
+				<actif>1</actif>
+				<groupes>
+					<groupe>POWERPOINT</groupe>
+				</groupes>
+			</reponse>
+			<reponse>
+				<code>3</code>
+				<libelle>J'utilise des feuilles de calcul (documents Excel) qui comprennent des macros</libelle>
+				<actif>1</actif>
+				<groupes>
+					<groupe>MACROSEXCEL</groupe>
+				</groupes>
+			</reponse>
+			<reponse>
+				<code>4</code>
+				<libelle>J'utilise des documents Word qui comprennent des macros</libelle>
+				<actif>1</actif>
+				<groupes>
+					<groupe>MACROSWORD</groupe>
+				</groupes>
+			</reponse>
+			<reponse>
+				<code>5</code>
+				<libelle>Je développe et je maintiens des macros</libelle>
+				<actif>1</actif>
+				<groupes>
+					<groupe>GRPEXCELMACROS</groupe>
+					<groupe>GRPWORDMACROS</groupe>
+				</groupes>
+			</reponse>
+		</reponses>
+	</question>
+</questions>
